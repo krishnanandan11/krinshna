@@ -1,0 +1,60 @@
+
+body{
+    background-color: aquamarine;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    
+}
+.container{
+    position: absolute;
+    background-color: rgb(232, 197, 150);
+    height: 350px;
+    width: 500px;
+    align-items: center;
+    text-align: center;
+    padding: 60px 30px;
+}
+h1{
+    font-size: 40px;
+    color: black;
+    margin-bottom: 30px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-decoration: none;
+    text-shadow: 1px color(srgb rgb(231, 84, 84) rgb(89, 234, 89) rgb(53, 53, 220));    
+}
+.nav{
+    text-align: center;
+    align-items: center;
+}
+.nav label{
+    color: rgb(24, 26, 26);
+    font-size: 20px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+#user{
+    color: rgb(15, 21, 21);
+    margin-bottom: 10px;
+}
+#pass{
+    color: rgb(15, 21, 21);
+}
+.submit{
+    display: inline-block;
+    background-color: aqua;
+    color:rgb(13, 20, 26);
+    padding: 5px 15px;
+    margin-top: 20px;
+    text-decoration: none;
+    border: 0cap;
+    margin-bottom: 10px;
+}
+.forget{
+    color: blue;
+    font-size: 15px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-decoration: none;
+    margin-left: 30px;
+}
